@@ -1,0 +1,291 @@
+/* General Reset */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
+.container {
+    background-image: url("https://www.azocleantech.com/images/Article_Images/ImageForArticle_1692_16859684669323987.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+}
+.container{
+     max-width: 1500px;
+     padding: 10px;
+     margin: autos;
+
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+
+}
+.text-box h2{
+  font-size: 50px;
+}
+
+
+/* Header */
+.header {
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+.nav-links{
+     flex: 1;
+     text-align: right;
+
+}
+.nav-links ul li{
+   list-style: none;
+   display: inline-block;
+   padding: 8px 12px;
+   position: realtive;
+
+}
+.nav-links ul li a{
+     color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-links ul li::after{
+     content: '';
+     width: 0%;
+     height: 2px;
+     background: #f44336;
+     display: block;
+     margin: auto;
+     transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+         width: 100%;
+}
+
+/* Goals Section */
+.sdg-cards h1 {
+    margin-bottom: 30px;
+    color: #080808;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.sdg-cards p{
+  text-align: center;
+  font-size: 18px;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 25px;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1000px;
+    overflow: hidden;
+ }
+
+ .cards-btn{
+   display: inline-block;
+   text-decoration: none;
+   color: #fff;
+   border: 1px solid #fff;
+   padding: 12px 34px;
+   font-size: 18px;
+   background: transparent;
+   position: relative;
+   cursor: pointer;
+}
+.cards-btn:hover{
+    border: 1px solid #fff;
+    background: #fff;
+    transition: 1s;
+} 
+
+.cards {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
+}
+
+.card-red {
+ background-color:  #E5243B;
+}
+.card-yellow {
+ background-color:  #DDA63A;
+}
+.card-green {
+ background-color:  #4C9F38;
+}
+.card-darkred {
+ background-color: #C5192D;
+}
+.card-orange {
+ background-color:  #FF3A21;
+}
+.card-skyblue {
+ background-color: #26BDE2;
+}
+.card-paleyellow {
+ background-color: #dbc432;
+}
+.card-pink {
+ background-color:  #A21942;
+}
+.card-lightorange{
+ background-color: #FD6925;
+}
+.card-darkpink {
+ background-color: #DD1367;
+}
+.card-lightyellow{
+ background-color: #F99D26;
+}
+.card-brown {
+ background-color:  #BF8B2E;
+}
+
+
+.cards:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cards img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.cards h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #080d09;
+}
+
+.cards p {
+    font-size: 1rem;
+    color: #080808;
+}
+
+.footer {
+    background-color: #f8f9fa ; /* Earthy green tone */
+    color: #080d09;
+    padding: 20px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Footer Sections */
+  .footer-section {
+    flex: 1 1 30%;
+    margin: 10px;
+  }
+  
+  .footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  /* Quick Links */
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #080d09;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #f8f9fa;
+  }
+  
+  /* Social Icons */
+  .fa-brands social-icons{
+    margin-right: 20px;
+    font-size: 50px;
+    text-decoration: none;
+    color: #080d09;
+    transition: color 0.3s;
+  }
+  .fa-facebook {
+    font-size: 30px;
+    padding: 10px;
+  }
+  .fa-facebook :hover {
+    color: #f8f9fa;
+    
+  }
+  
+  .fa-twitter{
+    font-size: 30px;
+    padding: 10px;
+  }
+  
+  .fa-instagram{
+        font-size: 30px;
+        padding: 10px;
+  }
+  
+  .fa-linkedin{
+        font-size: 30px;
+        padding: 10px;
+  }
+  
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #ced4da;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
+  

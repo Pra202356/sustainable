@@ -1,0 +1,210 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container {
+        background-image: url("https://media.istockphoto.com/id/1647090892/video/17-global-goals-concept-earth-plexus-design-motion-graphic-animation.jpg?s=640x640&k=20&c=8x4eGI1xXcj355qtE4bJ38nN8VuVmNg8ki5HzkHl5Ms=");
+        background-size: cover;
+        background-position: center;
+        min-height: 80vh;
+}
+.container{
+         max-width: 1500px;
+         padding: 10px;
+         margin: autos;
+
+}
+.header {
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5);
+}
+.nav-links{
+         flex: 1;
+         text-align: right;
+
+}
+.nav-links ul li{
+       list-style: none;
+       display: inline-block;
+       padding: 8px 12px;
+       position: realtive;
+
+}
+.nav-links ul li a{
+         color: #080808;
+        text-decoration: none;
+        font-size: 18px;
+}
+.nav-links ul li::after{
+         content: '';
+         width: 0%;
+         height: 2px;
+         background: #f44336;
+         display: block;
+         margin: auto;
+         transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+             width: 100%;
+}
+.text-box{
+       width: 90%;
+       color: #fff;
+       position: absolute;
+       top: 50%;
+       left:50%;
+       transform: translate(-50%,-50%);
+       text-align: center;
+
+}
+.text-box h2{
+     font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 18px;
+    color: #fff;
+}
+.hero-btn{
+       display: inline-block;
+       text-decoration: none;
+       color: #fff;
+       border: 1px solid #fff;
+       padding: 12px 34px;
+       font-size: 13px;
+       background: transparent;
+       position: relative;
+       cursor: pointer;
+}
+.hero-btn:hover{
+        border: 1px solid #f44336;
+        background: #f44336;
+        transition: 1s;
+} 
+.course{
+       width: 80%;
+       margin: auto;
+       text-align: center;
+       padding-top:60px ;
+
+}
+h2{
+    font-size: 36px;
+    font-weight: 600;
+    
+}
+
+p{
+    color: #150303;
+    font-size: 18px;
+    
+    font-weight: 22px;
+    line-height: 22px;
+    padding: 10px;
+
+}
+
+
+  
+   /* Footer Styling */
+   /* General Footer Styling */
+.footer {
+  background-color: #f8f9fa ; /* Earthy green tone */
+  color: #080d09;
+  padding: 20px 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Footer Sections */
+.footer-section {
+  flex: 1 1 30%;
+  margin: 10px;
+}
+
+.footer-section h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer-section p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Quick Links */
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #080d09;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #f8f9fa;
+}
+
+/* Social Icons */
+.fa-brands social-icons{
+  margin-right: 20px;
+  font-size: 50px;
+  text-decoration: none;
+  color: #080d09;
+  transition: color 0.3s;
+}
+.fa-facebook {
+  font-size: 30px;
+  padding: 10px;
+}
+.fa-facebook :hover {
+  color: #f8f9fa;
+  
+}
+
+.fa-twitter{
+  font-size: 30px;
+  padding: 10px;
+}
+
+.fa-instagram{
+      font-size: 30px;
+      padding: 10px;
+}
+
+.fa-linkedin{
+      font-size: 30px;
+      padding: 10px;
+}
+
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #ced4da;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+

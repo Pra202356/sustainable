@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+          background-image: url("https://www.un.org/sustainabledevelopment/wp-content/uploads/2018/04/About_page_UNDP-1200x352.png");
+          background-size: cover;
+          background-position: center;
+          height: 70vh;
+  }
+  .container{
+           max-width: 1500px;
+           padding: 10px;
+           margin: autos;
+  
+  } 
+  
+  .header {
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+.nav-links{
+     flex: 1;
+     text-align: right;
+
+}
+.nav-links ul li{
+   list-style: none;
+   display: inline-block;
+   padding: 8px 12px;
+   position: realtive;
+
+}
+.nav-links ul li a{
+     color: #080808;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-links ul li::after{
+     content: '';
+     width: 0%;
+     height: 2px;
+     background: #fff;
+     display: block;
+     margin: auto;
+     transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+         width: 100%;
+}
+
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-top:60px ;
+
+}
+h2{
+ font-size: 36px;
+ font-weight: 600;
+ 
+}
+
+p{
+ color: #150303;
+ font-size: 20px;
+ font-weight: 22px;
+ line-height: 21px;
+ padding: 10px;
+}
+
+.course1{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-top:60px ;
+
+}
+h2{
+ font-size: 36px;
+ font-weight: 600;
+ 
+}
+
+p{
+ color: #150303;
+ font-size: 20px;
+ font-weight: 22px;
+ line-height: 21px;
+ padding: 10px;
+}
+ 
+/* FAQ Container */
+.faq-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    width: 90%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* FAQ Section */
+.course2{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-top:60px ;
+
+}
+.faq-section {
+    width: 80%;
+    text-align: left;
+     flex: 1;
+     
+}
+
+
+.faq-section h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 36px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+/* FAQ Items */
+.accordion{
+        margin: 60px auto;
+        width:600px
+
+}
+.accordion li{
+      list-style: none;
+      width: 100%;
+      margin: 20px;
+      padding: 10px;
+      border-radius: 8px;
+      background-color: #e3edf7;
+      box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15)
+                 -6px -6px 10px -1px rgba(255,255,255,0.7);
+}
+.accordion li label{
+       display: flex;
+       align-items: left;
+       padding: 10px;
+       font-size: 18px;
+       font-weight: 500;
+       cursor: pointer;
+}
+ 
+label::before{
+    content: '+';
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+input[type="radio"]{
+     display: none;
+}
+
+.accordion .content{
+     color: #555;
+     padding: 0 10px;
+     line-height: 26px;
+     max-height: 0;
+     overflow: hidden;
+     transition: max-height 0.5s,padding 0.5s;
+} 
+ 
+.accordion input[type="radio"]:checked + label + .content{
+        max-height: 400px;
+        padding: 10px 10px 20px;
+}
+.accordion input[type="radio"]:checked + label::before{
+  content:'-';
+}
+
+.footer {
+    background-color: #f8f9fa ; /* Earthy green tone */
+    color: #080d09;
+    padding: 20px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Footer Sections */
+  .footer-section {
+    flex: 1 1 30%;
+    margin: 10px;
+  }
+  
+  .footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  /* Quick Links */
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #080d09;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #f8f9fa;
+  }
+  
+  /* Social Icons */
+  .fa-brands social-icons{
+    margin-right: 20px;
+    font-size: 50px;
+    text-decoration: none;
+    color: #080d09;
+    transition: color 0.3s;
+  }
+  .fa-facebook {
+    font-size: 30px;
+    padding: 10px;
+  }
+  .fa-facebook :hover {
+    color: #f8f9fa;
+    
+  }
+  
+  .fa-twitter{
+    font-size: 30px;
+    padding: 10px;
+  }
+  
+  .fa-instagram{
+        font-size: 30px;
+        padding: 10px;
+  }
+  
+  .fa-linkedin{
+        font-size: 30px;
+        padding: 10px;
+  }
+  
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #ced4da;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
+  
+
+
+
+
+

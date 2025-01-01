@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.container {
+    background-image: url("https://content.worldfavor.com/hubfs/Blog%20pictures/What-are-the-sdgs.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+}
+
+.container{
+     max-width: 1500px;
+     padding: 10px;
+     margin: autos;
+
+}
+.header {
+    
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.nav-links{
+     flex: 1;
+     text-align: right;
+
+}
+.nav-links ul li{
+   list-style: none;
+   display: inline-block;
+   padding: 8px 12px;
+   position: realtive;
+
+}
+.nav-links ul li a{
+     color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-links ul li::after{
+     content: '';
+     width: 0%;
+     height: 2px;
+     background: #f44336;
+     display: block;
+     margin: auto;
+     transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+         width: 100%
+}
+.texts {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+
+}
+.texts h1{
+  font-size: 55px;
+}
+.texts p{
+ margin: 10px 0 40px;
+ font-size: 25px;
+ color: #fff;
+}
+
+.container-course {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #fff;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text {
+    flex: 1;
+    min-width: 350px;
+}
+.image-content {
+    flex: 1;
+    text-align: center; 
+}
+
+
+.footer {
+    background-color: #f8f9fa ; 
+    color: #080d09;
+    padding: 20px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Footer Sections */
+  .footer-section {
+    flex: 1 1 30%;
+    margin: 10px;
+  }
+  
+  .footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  /* Quick Links */
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #080d09;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #f8f9fa;
+  }
+  
+  /* Social Icons */
+  .fa-brands social-icons{
+    margin-right: 20px;
+    font-size: 50px;
+    text-decoration: none;
+    color: #080d09;
+    transition: color 0.3s;
+  }
+  .fa-facebook {
+    font-size: 30px;
+    padding: 10px;
+  }
+  .fa-facebook :hover {
+    color: #f8f9fa;
+    
+  }
+  
+  .fa-twitter{
+    font-size: 30px;
+    padding: 10px;
+  }
+  
+  .fa-instagram{
+        font-size: 30px;
+        padding: 10px;
+  }
+  
+  .fa-linkedin{
+        font-size: 30px;
+        padding: 10px;
+  }
+  
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #ced4da;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
